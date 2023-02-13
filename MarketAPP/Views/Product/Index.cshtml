@@ -1,0 +1,64 @@
+﻿@model List<MarketAPP.Model.ProductViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <input type="hidden" value="@item.Id" id="Id" name="Id" />
+        <div class="col-lg-4 col-sm-6">
+            <div class="product-item">
+                <div class="pi-pic">
+                    <div class="tag-sale">SATIŞTA</div>
+                    <img src="@item.FilePath" alt="">
+                    <div class="pi-links">
+
+                        <button id='btnDetail' productid="@item.Id" class="add-card" onclick="myFunction()">Detay</button>
+                        <a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
+                    </div>
+                </div>
+                <div class="pi-text">
+                    <h6>@item.Cost</h6>
+                    <p>@item.CategoryName</p>
+                    <p>@item.ProductName</p>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="text-center w-100 pt-3">
+        <button class="site-btn sb-line sb-dark">LOAD MORE</button>
+    </div>
+</div>
+
+
+<div id="ProductModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                @*<button id="btnKapat" type="button" class="close" data-dismiss="modal">&times;</button>*@
+                <h5 class="modal-title">Ürün Detay Ekranı</h5>
+            </div>
+            <div class="modal-body">
+                <label>Ürün Adı</label>
+                <input class="form-control" type="text" id="ProductName" />
+                <label>Ürün Kategorisi</label>
+                <input class="form-control" type="text" id="CategoryName" />
+                <label>Ürün Fiyatı</label>
+                <input class="form-control" type="text" id="Cost" />
+                <label>Ürün Detayı</label>
+                <input class="form-control" type="text" id="Detail" />
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Content/js/modal.js"></script>

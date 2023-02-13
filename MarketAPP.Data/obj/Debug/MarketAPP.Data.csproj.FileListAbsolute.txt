@@ -1,0 +1,23 @@
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\bin\Debug\MarketAPP.Data.dll.config
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\bin\Debug\MarketAPP.Data.dll
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\bin\Debug\MarketAPP.Data.pdb
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\bin\Debug\EntityFramework.dll
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\bin\Debug\EntityFramework.xml
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.csprojAssemblyReference.cache
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.csproj.CopyComplete
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.dll
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.pdb
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\bin\Debug\MarketAPP.Data.dll.config
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\bin\Debug\MarketAPP.Data.dll
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\bin\Debug\MarketAPP.Data.pdb
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.dll
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Data\obj\Debug\MarketAPP.Data.pdb

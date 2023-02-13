@@ -1,0 +1,97 @@
+﻿@model MarketAPP.Model.ProductViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+<link href="~/Content/css/StyleSheet1.css" rel="stylesheet" />
+<section class="checkout-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 order-2 order-lg-1">
+                <form method="post" action='@Url.Action("Edit","Product")' enctype="multipart/form-data" class="checkout-form">
+                    @Html.HiddenFor(x => x.Id)
+
+                    <div class="cf-title">Ürün Düzenle</div>
+                    @if (TempData["Mesaj"] != null)
+                    {
+                        <div class="alert alert-success">
+                            <div class="container">
+                                <div class="alert-icon">
+                                    <i class="material-icons"></i>
+                                </div>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true"><i class="material-icons">x</i></span>
+                                </button>
+                                <b>MESAJ:</b> @TempData["Mesaj"]
+                            </div>
+                        </div>
+                    }
+
+                    <br />
+                    <div class="row address-inputs">
+                        <div class="col-md-12">
+                            <label>Ürün Adı</label>
+                            <input type="text" placeholder="Ürün Adı" id="ProductName" name="ProductName" value="@Model.ProductName" required>
+                            <label>Kategori Adı</label>
+                            <select id="CategoryId" name="CategoryId" required>
+                                @foreach (var item in Model.CategoryList.Where(x => x.TopCategoryId != null))
+                                {
+                                    if (Model.CategoryId == item.Id)
+                                    {
+                                        <option value="@item.Id" selected>@item.CategoryName</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@item.Id">@item.CategoryName</option>
+                                    }
+
+                                }
+
+                            </select>
+
+                        </div>
+                        <div class="col-md-12">
+                            <label>Fiyat</label>
+                            <input type="text" placeholder="Fiyat" id="Cost" name="Cost" value="@Model.Cost" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label>Açıklama</label>
+                            <textarea placeholder="Açıklama" id="Detail" name="Detail">@Model.Detail</textarea>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="img-upload-wrap">
+                                    <output id="list">
+                                        @foreach (var item in Model.PicList)
+                                        {
+
+                                            <img class="img-responsive" src="@item.PicturePath" style="width:25% !important">
+
+                                        }
+
+                                    </output>
+                                </div>
+
+                                <div class="fileupload btn btn-info btn-anim">
+                                    <i class="fa fa-upload"></i><span class="btn-text">Yükle</span>
+                                    <input type="file" class="upload" id="pics" name="pics" onClick="Clean()" multiple>
+                                </div>
+                                <div class="form-group">
+                                    <h4><span class="label label-danger">Yeni yüklediğiniz dosya eskisinin üzerine yazılır!</span></h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button type="submit" class="site-btn submit-order-btn">Kaydet</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+

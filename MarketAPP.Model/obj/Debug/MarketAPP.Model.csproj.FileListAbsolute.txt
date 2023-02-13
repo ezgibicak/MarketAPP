@@ -1,0 +1,13 @@
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Model\bin\Debug\MarketAPP.Model.dll.config
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Model\bin\Debug\MarketAPP.Model.dll
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Model\bin\Debug\MarketAPP.Model.pdb
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Model\obj\Debug\MarketAPP.Model.csprojAssemblyReference.cache
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Model\obj\Debug\MarketAPP.Model.dll
+C:\Users\EZGI\source\repos\MarketAPP\MarketAPP.Model\obj\Debug\MarketAPP.Model.pdb
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Model\bin\Debug\MarketAPP.Model.dll.config
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Model\bin\Debug\MarketAPP.Model.dll
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Model\bin\Debug\MarketAPP.Model.pdb
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Model\obj\Debug\MarketAPP.Model.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Model\obj\Debug\MarketAPP.Model.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Model\obj\Debug\MarketAPP.Model.dll
+C:\Users\Lenovo\Desktop\projelerim\EzgiBıçak (1)\EZGİ BIÇAK\MarketAPP\MarketAPP.Model\obj\Debug\MarketAPP.Model.pdb

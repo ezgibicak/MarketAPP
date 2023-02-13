@@ -1,0 +1,81 @@
+﻿@model MarketAPP.Model.CategoryViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+<link href="~/Content/css/StyleSheet1.css" rel="stylesheet" />
+
+
+<section class="checkout-section spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 order-2 order-lg-1">
+                @using (Html.BeginForm("Edit", "Category", FormMethod.Post, new { data_toggle = "validator", role = "form", @class = "checkout-form" }))
+                {
+                    @Html.HiddenFor(x => x.Id)
+                    if (@TempData["Mesaj"] != null)
+                    {
+                        <div class="alert alert-success">
+                            <div class="container">
+                                <div class="alert-icon">
+                                    <i class="material-icons"></i>
+                                </div>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true"><i class="material-icons">x</i></span>
+                                </button>
+                                <b>MESAJ:</b> @TempData["Mesaj"]
+                            </div>
+                        </div>
+                    }
+                    if (Model.TopCategoryId == null)
+                    {
+                        <div class="cf-title">Ana Kategori Düzenle</div>
+                        <div class="row address-inputs">
+                            <div class="col-md-12">
+                                <label>Kategori Adı</label>
+                                <input type="text" placeholder="Kategori Adı" id="CategoryName" name="CategoryName" value="@Model.CategoryName" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="site-btn submit-order-btn">Kaydet</button>
+                    }
+                    else
+                    {
+                        <div class="cf-title">Alt Kategori Düzenle</div>
+                        <div class="row address-inputs">
+                            <div class="col-md-12">
+
+                                <label>Kategori Adı</label>
+                                <select id="TopCategoryId" name="TopCategoryId">
+                                    <option value="0">Seçiniz</option>
+                                    @foreach (var item in Model.CategoryList.Where(x => x.TopCategoryId == null))
+                                    {
+                                        if (Model.TopCategoryId == item.Id)
+                                        {
+                                            <option selected value="@item.Id">@item.CategoryName</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@item.Id">@item.CategoryName</option>
+                                        }
+
+                                    }
+
+                                </select>
+                                <label>Kategori Adı</label>
+                                <input type="text" placeholder="Kategori Adı" id="CategoryName" name="CategoryName" value="@Model.CategoryName" required>
+                            </div>
+
+                        </div>
+                        <button type="submit" class="site-btn submit-order-btn">Kaydet</button>
+                    }
+
+
+
+                }
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
